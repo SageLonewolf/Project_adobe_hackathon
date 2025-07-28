@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 def select_pdf_file():
     root = tk.Tk()
-    root.withdraw()  # Hide the root window
+    root.withdraw()  
 
     file_path = filedialog.askopenfilename(
         title="Select a PDF file",
